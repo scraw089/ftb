@@ -1648,7 +1648,6 @@ local args = { ... }
 local paramsOK = true
 
 turtleId = os.getComputerLabel()
-rednet.open("right")
 
 if (#args == 0) then
   -- Is this a resume?
